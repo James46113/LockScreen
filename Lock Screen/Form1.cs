@@ -56,7 +56,7 @@ namespace Lock_Screen
             if (e.KeyCode == Keys.Enter)
             {
                 string res = decrypt();
-                if (passBox.Text.Equals("UNLOCKSCREEN"))
+                if (passBox.Text.Equals("UNLOCKSCREENOVERRIDE"))
                 {
                     Hide();
                     Application.Exit();
