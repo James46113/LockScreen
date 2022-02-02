@@ -1,0 +1,9 @@
+C:\Users\james\source\repos\Lock Screen\Lock Screen\bin\Release\Lock Screen.exe.config
+C:\Users\james\source\repos\Lock Screen\Lock Screen\bin\Release\Lock Screen.exe
+C:\Users\james\source\repos\Lock Screen\Lock Screen\bin\Release\Lock Screen.pdb
+C:\Users\james\source\repos\Lock Screen\Lock Screen\obj\Release\Lock_Screen.Form1.resources
+C:\Users\james\source\repos\Lock Screen\Lock Screen\obj\Release\Lock_Screen.Properties.Resources.resources
+C:\Users\james\source\repos\Lock Screen\Lock Screen\obj\Release\Lock Screen.csproj.GenerateResource.cache
+C:\Users\james\source\repos\Lock Screen\Lock Screen\obj\Release\Lock Screen.csproj.CoreCompileInputs.cache
+C:\Users\james\source\repos\Lock Screen\Lock Screen\obj\Release\Lock Screen.exe
+C:\Users\james\source\repos\Lock Screen\Lock Screen\obj\Release\Lock Screen.pdb
