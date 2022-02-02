@@ -21,6 +21,7 @@ namespace Lock_Screen
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Cursor.Hide();
             passBox.Top = 1080 - passBox.Size.Height;
             passBox.Left = 1920 - passBox.Size.Width;
             FormBorderStyle = FormBorderStyle.None;
@@ -56,7 +57,9 @@ namespace Lock_Screen
                 Console.WriteLine(res.Remove(res.Length-2).Equals(passBox.Text));
                 if (passBox.Text.Equals(res.Remove(res.Length-2)))
                 {
+                    Hide();
                     Application.Exit();
+                    Environment.Exit(0);
                 }
                 passBox.Text = "";
             }

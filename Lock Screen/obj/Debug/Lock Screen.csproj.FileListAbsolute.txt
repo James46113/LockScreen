@@ -1,0 +1,10 @@
+C:\Users\18caroej\Source\Repos\LockScreen\Lock Screen\bin\Debug\Lock Screen.exe.config
+C:\Users\18caroej\Source\Repos\LockScreen\Lock Screen\bin\Debug\Lock Screen.exe
+C:\Users\18caroej\Source\Repos\LockScreen\Lock Screen\bin\Debug\Lock Screen.pdb
+C:\Users\18caroej\Source\Repos\LockScreen\Lock Screen\obj\Debug\Lock Screen.csprojAssemblyReference.cache
+C:\Users\18caroej\Source\Repos\LockScreen\Lock Screen\obj\Debug\Lock_Screen.Form1.resources
+C:\Users\18caroej\Source\Repos\LockScreen\Lock Screen\obj\Debug\Lock_Screen.Properties.Resources.resources
+C:\Users\18caroej\Source\Repos\LockScreen\Lock Screen\obj\Debug\Lock Screen.csproj.GenerateResource.cache
+C:\Users\18caroej\Source\Repos\LockScreen\Lock Screen\obj\Debug\Lock Screen.csproj.CoreCompileInputs.cache
+C:\Users\18caroej\Source\Repos\LockScreen\Lock Screen\obj\Debug\Lock Screen.exe
+C:\Users\18caroej\Source\Repos\LockScreen\Lock Screen\obj\Debug\Lock Screen.pdb
