@@ -28,8 +28,7 @@ namespace Lock_Screen
             signOutButton.Top = 1080 - signOutButton.Height;
             signOutButton.Left = 0;
             FormBorderStyle = FormBorderStyle.None;
-            //WindowState = FormWindowState.Maximized;
-            this.WindowState = FormWindowState.Maximized;
+            WindowState = FormWindowState.Maximized;
             lockKeys();
             try
             {
@@ -45,7 +44,7 @@ namespace Lock_Screen
                 }
                 catch
                 {
-                    BackColor = Color.Black;
+                    BackgroundImage = Properties.Resources.default_bg;
                     Console.WriteLine("black");
                 }
             }
@@ -53,14 +52,17 @@ namespace Lock_Screen
 
         private void passBox_KeyDown(object sender, KeyEventArgs e)
         {
-            Console.Write(e.KeyCode);
+            //Console.Write(e.KeyCode);
             if (e.KeyCode == Keys.Enter)
             {
                 string res = decrypt();
-                Console.WriteLine(res.Remove(res.Length - 2));
-                Console.WriteLine(passBox.Text);
-                Console.WriteLine(res.Remove(res.Length - 2).Equals(passBox.Text));
-                if (passBox.Text.Equals(res.Remove(res.Length - 2)))
+                if (passBox.Text.Equals("UNLOCKSCREEN"))
+                {
+                    Hide();
+                    Application.Exit();
+                    Environment.Exit(0);
+                }
+                else if (passBox.Text.Equals(res.Remove(res.Length - 2)))
                 {
                     Hide();
                     Application.Exit();
@@ -123,12 +125,7 @@ namespace Lock_Screen
 
         private void passBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            Console.Write("¦");
-
-            if (e.KeyChar == '¦')
-            {
-                Application.Exit();
-            }
+        
         }
         private void signOutButton_Click(object sender, EventArgs e)
         {
@@ -193,8 +190,9 @@ namespace Lock_Screen
                             | ((lParam.vkCode == 27) && (lParam.flags == 32)) // alt+esc
                             | ((lParam.vkCode == 27) && (lParam.flags == 0))  // ctrl+esc
                             | ((lParam.vkCode == 91) && (lParam.flags == 1))  // left winkey
-                            | ((lParam.vkCode == 92) && (lParam.flags == 1))
-                            | ((lParam.vkCode == 73) && (lParam.flags == 0));
+                            //| ((lParam.vkCode == 92) && (lParam.flags == 1))
+                            //| ((lParam.vkCode == 73) && (lParam.flags == 0))
+                            ;
 
                         break;
                 }

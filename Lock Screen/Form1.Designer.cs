@@ -65,12 +65,11 @@ namespace Lock_Screen
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(166, 68);
+            this.ClientSize = new System.Drawing.Size(744, 447);
             this.Controls.Add(this.signOutButton);
             this.Controls.Add(this.passBox);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
